@@ -35,6 +35,7 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
+    vendor: ['aframe'],
     vendor: ['vue-material'],
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {

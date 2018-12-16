@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^2.6.0",
+    "aframe": "^0.8.2",
     "nuxt": "^1.0.0",
     "vue-material": "latest"
   },
