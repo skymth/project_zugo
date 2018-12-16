@@ -8,18 +8,22 @@
       <md-app-content>
       </md-app-content>
     </md-app>
+      <bottom-bar></bottom-bar>
   </div>
 </template>
 
 <style lang="scss" scoped>
   .md-app {
-    min-height: 100vh;
+     height: 100vh;
     border: 1px solid rgba(#000, .12);
   }
 </style>
 
 <script>
+import BottomBarComponent from '~/components/bottomBarComponent.vue'
 export default {
-  name: 'Waterfall'
+  components: {
+    'bottom-bar': BottomBarComponent
+  }
 }
 </script>
