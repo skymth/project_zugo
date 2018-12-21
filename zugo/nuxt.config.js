@@ -35,6 +35,7 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
+    vendor: ['~/assets/components/set-image.js'],
     vendor: ['aframe'],
     vendor: ['vue-material'],
     extend (config, { isDev, isClient }) {
